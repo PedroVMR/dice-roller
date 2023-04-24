@@ -7,7 +7,7 @@ def diceRoller(amount, dicetype):
         diceList.append(dice)
     return diceList
 
-amountDices, diceType = input("Digite a quantidade de dados e o tipo de dado no formato 'XdY', onde X é a quantidade e Y é o tipo: ").split("d")
+amountDices, diceType = input("Enter the amount of dices and the dice type in 'XdY' format, where X is the amount and Y is the type: ").split("d")
 diceList = diceRoller(int(amountDices), int(diceType))
 
 total = 0
